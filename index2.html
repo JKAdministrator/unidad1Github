@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de Git master</title>
+    <script src="index.js"></script>
+</head>
+<body>
+    <form action="">
+        <input type="text" value="12345" onfocus="this.blur()"></input>
+    </form>
+    <ul>
+        <li>
+            <h1>q</h1>
+            <span>Para salir cuando un comando esta mostrando algo y necesitas volver a la consola</span>
+        </li>
+        <li>
+            <h1>git init</h1>
+            <span>Inicializa un repositorio local</span>
+        </li>
+        <li>
+            <h1>git status</h1>
+            <span>Status del repositorio. Indica cuales estan sin tracker (en rojo, no los tiene en cuenta el versionador) y en que branch estamos</span>
+        </li>
+        <li>
+            <h1>git add .</h1>
+            <span>. es todo el directorio. sino puedo poner el nombre del archivo. Agrega el archivo al versionador</span>
+        </li>
+        <li>
+            <h1>git commit -m "esto es un commit"</h1>
+            <span>. es todo el directorio. sino puedo poner el nombre del archivo. Agrega el archivo al versionador</span>
+        </li>
+        <li>
+            <h1>git branch</h1>
+            <span>muestra todos los branchs y en cual estamos</span>
+        </li>
+		<li>
+            <h1>git branch -a </h1>
+            <span>me muestra tambien los repositorios en github</span>
+        </li>
+        <li>
+            <h1>git branch nameOfBranch </h1>
+            <span>crea un nuevo branch con el nombre nameOfBranch. No mueve al branch creado</span>
+        </li>
+		<li>
+            <h1>git remote -v </h1>
+            <span>me muestra a donde apuntan los branch remotos</span>
+        </li>
+		<li>
+            <h1>git push origin nombreDelBranchRemoto </h1>
+            <span>hace un push de los cambios al branch principal</span>
+        </li>
+        <li>
+            <h1>git checkout nameOfBranch </h1>
+            <span>te mueve al branch nameOfBranch</span>
+        </li>
+        <li>
+            <h1>git merge nameOfBranch </h1>
+            <span>hace un pull desde el branch nameOfBranch al actual. Ej: mover todo lo que hay en el branch hotfix1 al master, integrando los cambios hechos en hotfix_1 al fuente del master</span>
+        </li>
+        <li>
+            <h1>git log</h1>
+            <span>log de commits</span>
+        </li>
+    </ul>
+</body>
+</html>
